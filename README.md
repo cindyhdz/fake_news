@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/99698846/178391609-ca3ec8d1-d6c1-4dbd-8df9-7246ac5c2c1a.png)
+
 # fake_news
 
 ## Overview
