@@ -72,7 +72,7 @@ The Links to the original data sets are below:
 
 5. Finish creating final table to PGadmin: 
    #### fake_news_final
-   ![final_table]()
+   ![final_table](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_final.png)
  
 ## Machine Learning 
 1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
