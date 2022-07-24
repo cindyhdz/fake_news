@@ -29,11 +29,19 @@ The Links to the original data sets are below:
 5) Google Slides
 
 ## Cleaned Data Source
-Our team used Pandas'library to read, clean the data. 
+Our team used Pandas'library to read, clean the data.
+
 ### Fake_test_data 
 ![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
-### Fake_new_df
-![fake_news_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_df.PNG)
+
+- Drop all null values: 
+![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
+
+### Fake_news_df
+![fake_train_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_train%20df.png)
+
+- Drop all null values: 
+![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
 
 ### Fake_news_final
 Then, we drop Rows with Missing Values in any row. The dataset became 18285 rows * 5 columns. After that, we merged fake_test_clean and fake_new_clean 
