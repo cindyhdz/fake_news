@@ -7,7 +7,7 @@ Group 3 selected “fake news” for the final project. The intent of the analys
 Long short-term memory (LSTM) was utilized to conduct this analysis. 
 
 ## Presentation
-https://docs.google.com/presentation/d/e/2PACX-1vRmQPvgaKRaGcQUUh_QWeqbyAoyczvgGxaKWcnog9yyZ4bgXTVx8T_yNyqK57dqL12awufPEvM0loBH/pub?start=false&loop=false&delayms=3000
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRmQPvgaKRaGcQUUh_QWeqbyAoyczvgGxaKWcnog9yyZ4bgXTVx8T_yNyqK57dqL12awufPEvM0loBH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Fake News—why?
 Due to the inclement political climate, identifying reputable sources for news information has become a necessity to make responsible choices at the polls. Additionally, we as a group believe that it's only ethical to supply citizens with accurate and truthful information in order to make decisions based on facts.
