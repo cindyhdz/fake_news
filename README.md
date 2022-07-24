@@ -33,19 +33,19 @@ The Links to the original data sets are below:
 ### Cleaned Data Source
 
 1. Using Jupyter Notebook, our team used Pandas'library to read and clean the data:
+
  - We created dataframes by using from test.csv and train.csv using 'pd.read_csv' as shown below:
+   #### Fake_test_df 
+   ![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
 
-  #### Fake_test_df 
-  ![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
+    - Drop all null values: 
+      ![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
 
-  - Drop all null values: 
-    ![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
+   #### Fake_news_df
+   ![fake_train_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_train%20df.png)
 
-  #### Fake_news_df
-  ![fake_train_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_train%20df.png)
-
-  - Drop all null values: 
-    ![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
+    - Drop all null values: 
+      ![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
 
 2. To load the data we used PGadmin: 
  
@@ -56,7 +56,9 @@ The Links to the original data sets are below:
    #### fake_news
    ![fake_news](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news%20sql.png)
    
-3. Then in PGadmin we joined both tables, creating new table 'joined_df' and deleted null values from columns: 
+3. In PGadmin we joined both tables: 
+
+ - Created new table 'joined_df' and deleted null values from columns:
    #### joined_df
    ![Joined table](https://github.com/cindyhdz/fake_news/blob/main/Resources/SQL%20Joined%20Table.png)
 
