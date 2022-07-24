@@ -39,7 +39,14 @@ Our team used Pandas'library to read, clean the data.
 Then, we drop Rows with Missing Values in any row. The dataset became 18285 rows * 5 columns. After that, we merged fake_test_clean and fake_new_clean 
 ![fake_news_final](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_final.png)
 PICTURE 
-## ETL pg_Admin
+
+## ETL Jupyter Notebook & pg_Admin
+
+The process we used for our database was the following: 
+1.
+2.
+3.
+
  we used the clean table in jupyter notebook to link onto out local database through pgAdmin.
 
 ![Joined table](https://github.com/cindyhdz/fake_news/blob/main/Resources/SQL%20Joined%20Table.png)
