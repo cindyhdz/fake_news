@@ -40,5 +40,5 @@ Picture
 ## Machine Learning 
 1) Logistic Regression predicts binary outcomes, meaning that there are onnly 2 possible outcomes. The model analyzes the available data, and presented with a new sample, matemaytically determine its probability of belonging to a class. If the probablilty is above a certain cutoff point, the sample is assigned to the class. If it is less then the sample is assigened to the other class. In this example, LOGISTIC REGRESSION might decide whether the news are fake or not.
 PICTURE
-
+2) Random forest model is known as an ensemble classification which is the process of combining multiple models. It will sample the data and build several smaller, simple decision trees with controlled variation. As a result, it reduces the over-fitting problem while increasing accuracy. In this example Random forest classifier will predict if the articles are faker or not too.
 
