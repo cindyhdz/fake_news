@@ -2,6 +2,8 @@
 
 # fake_news
 
+## Topic: Predicting fake news 
+
 ## Overview
 Group 3 selected “fake news” for the final project. The intent of the analysis is to identify fake news articles based on the title, author, and text within the article. The dataset categorizes each article with a 0 or 1 — the 0 is indicative of a reliable source (therefore not fake news) and a 1 is indicative of fake news!  
 Long short-term memory (LSTM) was utilized to conduct this analysis. 
