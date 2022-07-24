@@ -11,10 +11,7 @@ Due to the inclement political climate, identifying reputable sources for news i
 
 ## Data Source
 fake_news dataset was found on Kaggle as part of a large community that has implemented big machine learning models and deep learning under this dataset.
-## Data $ Database
-In this project, the main two datas that we are using are test and train
-### Description of Datasets
-Our main data were found in Kaggle and is located in Data folder.
+In this project, the main two datas that we are using are test and train table and it is located in the Data folder.
 The Links to the original data sets are below:
 
 1) [Test](https://www.kaggle.com/code/duquochuy/fake-news-detection-using-lstm-90-accuracy/data?select=test.csv)
