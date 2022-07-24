@@ -11,4 +11,31 @@ Due to the inclement political climate, identifying reputable sources for news i
 
 ## Data Source
 fake_news dataset was found on Kaggle as part of a large community that has implemented big machine learning models and deep learning under this dataset.
+## Data $ Database
+In this project, the main two datas that we are using are test and train
+### Description of Datasets
+Our main data were found in Kaggle and is located in Data folder.
+The Links to the original data sets are below:
+LINK1 for TRAIN data 
+LINK2 for TEST DATA
+### Entity Relationship Diagram (ERD)
+
+### Cleaned Data Source
+Our team used Pandas'library to read, clean the data. 
+#### Fake_test_data 
+Picture 
+#### Fake_new_df
+picture
+Then, we drop Rows with Missing Values in any row. The dataset became 18285 rows * 5 columns. After that, we merged fake_test_clean and fake_new_clean 
+#### Fake_news_final
+
+PICTURE 
+## ETL pg_Admin
+ we used the clean table in jupyter notebook to link onto out local database through pgAdmin.
+
+Picture
+## Machine Learning 
+1) Logistic Regression predicts binary outcomes, meaning that there are onnly 2 possible outcomes. The model analyzes the available data, and presented with a new sample, matemaytically determine its probability of belonging to a class. If the probablilty is above a certain cutoff point, the sample is assigned to the class. If it is less then the sample is assigened to the other class. In this example, LOGISTIC REGRESSION might decide whether the news are fake or not.
+PICTURE
+
 
