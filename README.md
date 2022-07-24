@@ -32,39 +32,37 @@ The Links to the original data sets are below:
 
 ### Cleaned Data Source
 
-1. Our team used Pandas'library to read and clean the data:
+1. Using Jupyter Notebook, our team used Pandas'library to read and clean the data:
  - We created dataframes by using from test.csv and train.csv using 'pd.read_csv' as shown below:
 
   #### Fake_test_df 
   ![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
 
   - Drop all null values: 
-  ![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
+    ![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
 
   #### Fake_news_df
   ![fake_train_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_train%20df.png)
 
   - Drop all null values: 
-  ![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
+    ![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
 
 2. To load the data we used PGadmin: 
  
- - Second, we created new both tables in PostgresSQL: 
- #### fake_test
- ![fake_test](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test%20sql.png)
- 
- #### fake_news
- ![fake_news](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news%20sql.png)
+ - Then we created new both tables in PostgresSQL: 
+   #### fake_test
+   ![fake_test](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test%20sql.png)
 
+   #### fake_news
+   ![fake_news](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news%20sql.png)
+   
+3. Then in PGadmin we joined both tables, creating new table 'joined_df' and deleted null values from columns: 
+   #### joined_df
+   ![Joined table](https://github.com/cindyhdz/fake_news/blob/main/Resources/SQL%20Joined%20Table.png)
 
-The process we used for our database was the following: 
-1.
-2.
-3.
+4. 
+5.
 
- we used the clean table in jupyter notebook to link onto out local database through pgAdmin.
-
-![Joined table](https://github.com/cindyhdz/fake_news/blob/main/Resources/SQL%20Joined%20Table.png)
 
 ## Machine Learning 
 1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
