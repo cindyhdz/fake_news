@@ -61,10 +61,8 @@ The Links to the original data sets are below:
  - Created new table 'joined_df' and deleted null values from columns:
    #### joined_df
    ![Joined table](https://github.com/cindyhdz/fake_news/blob/main/Resources/SQL%20Joined%20Table.png)
-
+   
 4. 
-5.
-
 
 ## Machine Learning 
 1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
