@@ -16,8 +16,10 @@ In this project, the main two datas that we are using are test and train
 ### Description of Datasets
 Our main data were found in Kaggle and is located in Data folder.
 The Links to the original data sets are below:
-LINK1 for TRAIN data 
-LINK2 for TEST DATA
+
+1) [Test](https://www.kaggle.com/code/duquochuy/fake-news-detection-using-lstm-90-accuracy/data?select=test.csv)
+
+2) [Train](https://www.kaggle.com/code/duquochuy/fake-news-detection-using-lstm-90-accuracy/data?select=train.csv)
 ### Entity Relationship Diagram (ERD)
 
 ### Cleaned Data Source
