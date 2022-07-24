@@ -31,23 +31,30 @@ The Links to the original data sets are below:
 ## ETL Jupyter Notebook & pg_Admin
 
 ### Cleaned Data Source
-Our team used Pandas'library to read, clean the data.
 
-First, we created dataframes by using from test.csv and train.csv using 'pd.read_csv' as shown below:
+1. Our team used Pandas'library to read and clean the data:
+ - We created dataframes by using from test.csv and train.csv using 'pd.read_csv' as shown below:
 
-#### Fake_test_df 
-![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
+  #### Fake_test_df 
+  ![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
 
-- Drop all null values: 
-![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
+  - Drop all null values: 
+  ![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
 
-#### Fake_news_df
-![fake_train_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_train%20df.png)
+  #### Fake_news_df
+  ![fake_train_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_train%20df.png)
 
-- Drop all null values: 
-![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
+  - Drop all null values: 
+  ![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
 
-Second, we created new both tables in PostgresSQL: 
+2. To load the data we used PGadmin: 
+ 
+ - Second, we created new both tables in PostgresSQL: 
+ #### fake_test
+ ![fake_test]()
+ 
+ #### fake_news
+ ![fake_news]()
 
 
 The process we used for our database was the following: 
