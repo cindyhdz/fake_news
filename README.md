@@ -51,10 +51,10 @@ The Links to the original data sets are below:
  
  - Second, we created new both tables in PostgresSQL: 
  #### fake_test
- ![fake_test]()
+ ![fake_test](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test%20sql.png)
  
  #### fake_news
- ![fake_news]()
+ ![fake_news](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news%20sql.png)
 
 
 The process we used for our database was the following: 
