@@ -2,19 +2,19 @@
 
 # fake_news
 
-## Topic: Predicting fake news 
-
-## Overview
+## Overview:
 Group 3 selected “fake news” for the final project. The intent of the analysis is to identify fake news articles based on the title, author, and text within the article. The dataset categorizes each article with a 0 or 1 — the 0 is indicative of a reliable source (therefore not fake news) and a 1 is indicative of fake news!  
-Long short-term memory (LSTM) was utilized to conduct this analysis. 
+Long short-term memory (LSTM) was utilized to conduct this analysis.
 
-## Presentation
+## Topic: Predicting fake news
+
+## Presentation:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRmQPvgaKRaGcQUUh_QWeqbyAoyczvgGxaKWcnog9yyZ4bgXTVx8T_yNyqK57dqL12awufPEvM0loBH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Fake News—why?
 Identifying reputable sources for news has become a necessity considering the political climate It is crucial for individuals to access accurate and truthful information in order to make decisions based on facts
 
-## Data Source
+## Data Source:
 fake_news dataset was found on Kaggle as part of a large community that has implemented big machine learning models and deep learning under this dataset.
 In this project, the main two datas that we are using are test and train table and it is located in the Data folder.
 The Links to the original data sets are below:
@@ -32,7 +32,7 @@ The Links to the original data sets are below:
 
 ## ETL Jupyter Notebook & pg_Admin
 
-### Cleaned Data Source
+### Cleaned Data Source:
 
 1. Using Jupyter Notebook, our team used Pandas'library to read and clean the data:
 
@@ -76,7 +76,7 @@ The Links to the original data sets are below:
    #### fake_news_final
    ![final_table](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_final.png)
  
-## Machine Learning 
+## Machine Learning:
 1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
 
 
