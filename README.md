@@ -44,3 +44,5 @@ Picture
 
 2) Random forest model is known as an ensemble classification which is the process of combining multiple models. It will sample the data and build several smaller, simple decision trees with controlled variation. As a result, it reduces the over-fitting problem while increasing accuracy. In this example Random forest classifier will predict if the articles are faker or not too.
 
+![random_forest](https://github.com/cindyhdz/fake_news/blob/main/Resources/random_forest.png)
+
