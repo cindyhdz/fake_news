@@ -62,8 +62,18 @@ The Links to the original data sets are below:
    #### joined_df
    ![Joined table](https://github.com/cindyhdz/fake_news/blob/main/Resources/SQL%20Joined%20Table.png)
    
-4. 
+4. Extract joined_df table to jupyter notebook and update columns:
+ - New table as fake_news_clean:
+   #### fake_news_clean
+   ![fake_news_clean](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_clean.png)
+  
+ - New 'merge' column and update columns:
+   ![merge_column](https://github.com/cindyhdz/fake_news/blob/main/Resources/merged%20%26%20update%20columns.png)
 
+5. Finish creating final table to PGadmin: 
+   #### fake_news_final
+   ![final_table]()
+ 
 ## Machine Learning 
 1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
 
