@@ -26,9 +26,10 @@ Our team used Pandas'library to read, clean the data.
 ![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
 #### Fake_new_df
 ![fake_news_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_df.PNG)
-Then, we drop Rows with Missing Values in any row. The dataset became 18285 rows * 5 columns. After that, we merged fake_test_clean and fake_new_clean 
-#### Fake_news_final
 
+#### Fake_news_final
+Then, we drop Rows with Missing Values in any row. The dataset became 18285 rows * 5 columns. After that, we merged fake_test_clean and fake_new_clean 
+![fake_news_final](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_final.png)
 PICTURE 
 ## ETL pg_Admin
  we used the clean table in jupyter notebook to link onto out local database through pgAdmin.
