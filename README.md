@@ -10,7 +10,7 @@ Long short-term memory (LSTM) was utilized to conduct this analysis.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRmQPvgaKRaGcQUUh_QWeqbyAoyczvgGxaKWcnog9yyZ4bgXTVx8T_yNyqK57dqL12awufPEvM0loBH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Fake News—why?
-Due to the inclement political climate, identifying reputable sources for news information has become a necessity to make responsible choices at the polls. Additionally, we as a group believe that it's only ethical to supply citizens with accurate and truthful information in order to make decisions based on facts.
+Identifying reputable sources for news has become a necessity considering the political climate It is crucial for individuals to access accurate and truthful information in order to make decisions based on facts
 
 ## Data Source
 fake_news dataset was found on Kaggle as part of a large community that has implemented big machine learning models and deep learning under this dataset.
@@ -44,11 +44,12 @@ PICTURE
 
 Picture
 ## Machine Learning 
-1) Logistic Regression predicts binary outcomes, meaning that there are onnly 2 possible outcomes. The model analyzes the available data, and presented with a new sample, matemaytically determine its probability of belonging to a class. If the probablilty is above a certain cutoff point, the sample is assigned to the class. If it is less then the sample is assigened to the other class. In this example, LOGISTIC REGRESSION might decide whether the news are fake or not.
+1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
+
 
 ![logistic](https://github.com/cindyhdz/fake_news/blob/main/Resources/logistic.png)
 
-2) Random forest model is known as an ensemble classification which is the process of combining multiple models. It will sample the data and build several smaller, simple decision trees with controlled variation. As a result, it reduces the over-fitting problem while increasing accuracy. In this example Random forest classifier will predict if the articles are faker or not too.
+2) Random forest model is known as an ensemble classification, which is the process of combining multiple models. It will sample the data and build several smaller, simple decision trees with controlled variation. As a result, it reduces the over-fitting problem while increasing accuracy. For the fake news dataset, random forest classifier will predict if the articles are fake or not too.
 
 ![random_forest](https://github.com/cindyhdz/fake_news/blob/main/Resources/random_forest.png)
 ### Results
