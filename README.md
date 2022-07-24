@@ -23,7 +23,7 @@ LINK2 for TEST DATA
 ### Cleaned Data Source
 Our team used Pandas'library to read, clean the data. 
 #### Fake_test_data 
-![theater_vs_outcome_GB](theater_vs_outcome_GB.png)
+![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG))
 #### Fake_new_df
 picture
 Then, we drop Rows with Missing Values in any row. The dataset became 18285 rows * 5 columns. After that, we merged fake_test_clean and fake_new_clean 
