@@ -9,7 +9,7 @@ Long short-term memory (LSTM) was utilized to conduct this analysis.
 ## Topic: Predicting fake news
 
 ## Presentation:
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRmQPvgaKRaGcQUUh_QWeqbyAoyczvgGxaKWcnog9yyZ4bgXTVx8T_yNyqK57dqL12awufPEvM0loBH/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+https://docs.google.com/presentation/d/e/2PACX-1vRmQPvgaKRaGcQUUh_QWeqbyAoyczvgGxaKWcnog9yyZ4bgXTVx8T_yNyqK57dqL12awufPEvM0loBH/pub?start=false&loop=false&delayms=3000
 
 ## Fake News—why?
 Identifying reputable sources for news has become a necessity considering the political climate It is crucial for individuals to access accurate and truthful information in order to make decisions based on facts
