@@ -30,11 +30,11 @@ The Links to the original data sets are below:
 4) GitHub
 5) Google Slides
 
-## ETL Jupyter Notebook & pg_Admin
+## ETL: Jupyter Notebook & pg_Admin
 
 ### Cleaned Data Source:
 
-1. Using Jupyter Notebook, our team used Pandas'library to read and clean the data:
+1. Using Jupyter Notebook, our team used Pandas to read and clean the data:
 
  - We created dataframes by using from test.csv and train.csv using 'pd.read_csv' as shown below:
    #### Fake_test_df 
@@ -75,6 +75,11 @@ The Links to the original data sets are below:
 5. Finish creating final table to PGadmin: 
    #### fake_news_final
    ![final_table](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_news_final.png)
+   
+### ERD 
+
+![ERD](https://github.com/cindyhdz/fake_news/blob/main/Resources/ERD/fake_news%20ERD.png)
+
  
 ## Machine Learning:
 1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
