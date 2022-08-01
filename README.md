@@ -82,21 +82,24 @@ The Links to the original data sets are below:
 
  
 ## Machine Learning:
-The steps start with cleaning data by removing unnecessary special characters, numbers, and white spaces, and finally, removing stop words is implemented. Then, we use one hot method to prepare data before it can be fit to a particular machine learning model. This means we convert the title column from textual data to numerical data. Then, this is where pad sequence is used to add zeros to make the line the same length. After that we start creating our model.
-We used long term short memory (LTSM) which is designed to recognize patterns in sequences of data. It consists of multiple algorithms that is majorly used to analyze the relationship between data points. The first layer is the Embedding layer which will convert the number array which we saw above into a vector of 40 dimensions, and then we have an LSTM layer with 100 nodes. After that we converting X and y to numpy arrays and simply splitting the data using traintestsplit. We assigned the X to input variables, and used them to predict Y, the output. The label column is defined as Y. X is created by dropping the label column from the data frame. This method compares the actual label column from the test against the models’ predicted values. We investigated two different machine learning which are logistic regression and random forest classifier. 
+The steps start with cleaning data by removing unnecessary special characters, numbers, and white spaces, and finally, removing stop words is implemented. Then, we use one hot method to prepare data before it can be fit to a particular machine learning model. This means we convert the title column from textual data to numerical data. Then, this is where pad sequence is used to add zeros to make the line the same length. After that we start creating our model. We investigated 3 different machine learning which are logistic regression, random forest classifier and Long term short memory(LTSM). 
 
-1) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
+1)Long term short memory
+We used long term short memory (LTSM) which is designed to recognize patterns in sequences of data. It consists of multiple algorithms that is majorly used to analyze the relationship between data points. The first layer is the Embedding layer which will convert the number array which we saw above into a vector of 40 dimensions, and then we have an LSTM layer with 100 nodes. After that we converting X and y to numpy arrays and simply splitting the data using traintestsplit. We assigned the X to input variables, and used them to predict Y, the output. The label column is defined as Y. X is created by dropping the label column from the data frame. This method compares the actual label column from the test against the models’ predicted values.
+
+2) Logistic regression predicts binary outcomes, indicative of only two possible outcomes. The model determines the probability by analyzing the available data, presented with a new sample. If the probability is above a certain limit, the sample is assigned to the class. If it is less than, the sample is assigned to the other class. For this dataset, it examines where news is fake or not.  
 
 
 ![logistic](https://github.com/cindyhdz/fake_news/blob/main/Resources/logistic.png)
 
-2) Random forest model is known as an ensemble classification, which is the process of combining multiple models. It will sample the data and build several smaller, simple decision trees with controlled variation. As a result, it reduces the over-fitting problem while increasing accuracy. For the fake news dataset, random forest classifier will predict if the articles are fake or not too.
+3) Random forest model is known as an ensemble classification, which is the process of combining multiple models. It will sample the data and build several smaller, simple decision trees with controlled variation. As a result, it reduces the over-fitting problem while increasing accuracy. For the fake news dataset, random forest classifier will predict if the articles are fake or not too.
 
 ![random_forest](https://github.com/cindyhdz/fake_news/blob/main/Resources/random_forest.png)
 ### Results
 In 2022, almost everyone relies on online news. Creating fake news and spreading through social media has become easy for people who wants followers or wants to monetize their content. For that reason, we perform two different  machine learning algorithms and they are random forest and logistic regression. The results shows that random forest has the best accuracy with 0.91 compared to logistic regression that was 0.73.
 
 ![results](https://github.com/cindyhdz/fake_news/blob/main/Resources/results.png)
+
 
 ## Dashboard:
 
