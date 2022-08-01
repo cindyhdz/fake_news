@@ -98,3 +98,9 @@ In 2022, almost everyone relies on online news. Creating fake news and spreading
 
 ![results](https://github.com/cindyhdz/fake_news/blob/main/Resources/results.png)
 
+## Dashboard:
+
+- Tableau: https://public.tableau.com/authoring/Fake_news_16593155646010/Dashboard1#1
+
+
+
