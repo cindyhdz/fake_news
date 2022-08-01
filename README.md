@@ -98,7 +98,7 @@ The steps start with cleaning data by removing unnecessary special characters, n
 In 2022, almost everyone relies on online news. Creating fake news and spreading through social media has become easy for people who wants followers or wants to monetize their content. For that reason, we perform two different  machine learning algorithms and they are random forest and logistic regression. The results shows that random forest has the best accuracy with 0.91 compared to logistic regression that was 0.73.
 
 
-
+![results_r](https://github.com/cindyhdz/fake_news/blob/main/Resources/results_r.png)
 
 ## Dashboard:
 
