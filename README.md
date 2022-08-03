@@ -50,7 +50,7 @@ The Links to the original data sets are below:
       ![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
       
     - Drop non-english characters: 
-      ![Drop non-e]()
+      ![Drop non-e](https://github.com/cindyhdz/fake_news/blob/main/Resources/drop%20non-e.png)
 
 2. To load the data we used PGadmin: 
  
