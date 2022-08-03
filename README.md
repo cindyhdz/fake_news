@@ -37,11 +37,15 @@ The Links to the original data sets are below:
 1. Using Jupyter Notebook, our team used Pandas to read and clean the data:
 
  - We created dataframes by using from test.csv and train.csv using 'pd.read_csv' as shown below:
+ 
    #### Fake_test_df 
    ![fake_test_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_test_data.PNG)
 
     - Drop all null values: 
       ![Drop null 1](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%201.png)
+      
+    - Drop non-english characters: 
+      ![Drop non-e](https://github.com/cindyhdz/fake_news/blob/main/Resources/drop%20non-e.png)
 
    #### Fake_news_df
    ![fake_train_data](https://github.com/cindyhdz/fake_news/blob/main/Resources/fake_train%20df.png)
@@ -50,7 +54,8 @@ The Links to the original data sets are below:
       ![Drop null 2](https://github.com/cindyhdz/fake_news/blob/main/Resources/dropna%202.png)
       
     - Drop non-english characters: 
-      ![Drop non-e](https://github.com/cindyhdz/fake_news/blob/main/Resources/drop%20non-e.png)
+      ![Drop non-e](https://github.com/cindyhdz/fake_news/blob/main/Resources/drop%20non-e2.png)
+      
 
 2. To load the data we used PGadmin: 
  
