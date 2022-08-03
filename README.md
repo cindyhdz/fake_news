@@ -110,6 +110,14 @@ In 2022, almost everyone relies on online news. Creating fake news and spreading
 
 ## Dashboard:
 
+We created our dashboard in Tableau, connecting our final data via CSV files. Our analysis included an aggregated view of the data we ran through our machine learning models, detailing real and fake news articles, authors writing those articles, and which models gave us the most accurate predictions.
+
+In our first tab, there is a scrollable menu that shows us which news sources and authors had factual and fake information published - a great resource to use when parsing specific datasets to see if they're fake or not. The bubble chart below that gives a brief glimpse of our data - good news - it looks like more than half was true news!
+
+Our second tab details the specific authors who have written real and fake articles. Again, once using these models and importing the data, it is a great resource to use, whether somebody is reading a current news article written by these authors or referencing a past news source, it is evident that there is a trend with certain authors writing more true information vs authors writing more fake news.
+
+The third tab shows a chart with the accuracy difference between the machine learning models we used. LSTM was the most accurate one, indicating that for any future fake news vs real news analyses, LSTM would be the recommended model to use.
+
 - Tableau: https://public.tableau.com/app/profile/leslie.cornejo4842/viz/Fake_news_16593155646010/Story1#1
 
 
